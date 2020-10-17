@@ -35,9 +35,8 @@ function App() {
       <div className="container">
         <h1>Breaking Bad Quote Generator</h1>
         <button onClick={handleClick}>Get New Quote</button>
-        <p>
-          {quote} - {author}
-        </p>
+        <p className="quote">{quote}</p>
+        <p className="author">- {author}</p>
       </div>
     </Fragment>
   );
